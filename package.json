@@ -1,0 +1,23 @@
+{
+    "name": "NODEJS",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon node01.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3",
+        "mongodb": "^3.0.7",
+        "mongoose": "^5.0.15",
+        "nodemon": "^1.17.3"
+    },
+    "devDependencies": {
+        "request": "^2.85.0"
+    }
+}
